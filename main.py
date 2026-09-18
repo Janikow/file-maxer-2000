@@ -5,17 +5,6 @@ import os
 import pyautogui
 import time
 
-def log():
-    width, height = pyautogui.size()
-    pyautogui.press('win')
-    pyautogui.write("outlook.com", interval=0.05)
-    time.sleep(10)
-    pyautogui.click('sign_in.png')
-    time.sleep(10)
-    pyautogui.click('account_selection.png')
-    time.sleep(10)
-    pyautogui.click('search_bar.png')
-
 COPIES_PER_GENERATION = 2
 MAX_GENERATIONS = 100
 
